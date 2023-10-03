@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <style>
+
+    .carousel{
+        margin-top: 1%;
+        width: 100%;
+        max-height: 100%;
+    }
+
+    .card-deck{
+        height: 90vh;
+        margin-top: 1%;
+    }
+
+    .card{
+        height: 100%;
+    }
+
+    .card-img-top{
+        height: 50%;
+    }
+
+    .card-header, .card-body, .card-footer{
+        background-color: #d4d4d4;
+    }
+
+    </style>
+</head>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col carousel">
+                <div id="carousel-exemplo" class="container carousel carousel-fade slide bootstrap" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block mw-100" src="https://cdn.pixabay.com/photo/2019/11/05/00/53/cellular-4602489_1280.jpg">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block mw-100" src="https://cdn.pixabay.com/photo/2017/05/05/22/49/phone-2288456_1280.jpg">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block mw-100" src="https://cdn.pixabay.com/photo/2014/09/23/21/21/iphone-6-458151_1280.jpg">
+                        </div>
+                    </div>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</header>
+<body>
+        <div class="row justify-content-center pt-4 justify-content-around">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Samsung Galaxy S23 Ultra</h5>
+                        </div>
+                        <img class="card-img-top" src="https://images.samsung.com/is/image/samsung/p6pim/uk/feature/164370272/uk-feature-galaxy-s-535141639?$FB_TYPE_K_JPG$">
+                        <div class="card-body">
+                            <p class="container card-text">
+                                Tamanho da tela: 6,8 polegadas.<br>
+                                    Resolução da tela: Quad HD+.<br>
+                                    Painel da tela: AMOLED Dinâmico 2X.<br>
+                                    Câmera principal:200 MP, UltraWide 12 MP, 2 x TeleObjetiva 10 MP.<br>
+                                    Câmera frontal: 12 MP.<br>
+                                    Sistema: Android 13.<br>
+                                    Processador: Snapdragon 8 gen 2 Galaxy.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary btn-toolbar justify-content-center">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Motorola Edge 30 Neo</h5>
+                        </div>
+                        <img class="card-img-top" src="https://images.tcdn.com.br/img/img_prod/737218/smartphone_motorola_moto_edge_30_neo_256gb_vitrine_8707_variacao_6353_1_e388b34e1ce892215a2c6286a00890cc.jpg">
+                        <div class="card-body">
+                            <p class="container card-text">
+                                Tamanho da tela: 6,28.<br>
+                                Resolução da tela: Full HD plus.<br>
+                                Painel da tela:pOLED.<br>
+                                Câmera principal: 64 MP, UltraWide de 13 MP.<br>
+                                Câmera frontal: 32 MP.<br>
+                                Sistema: Android 12.<br>
+                                Processador: Snapdragon 695 8 GB RAM.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary btn-toolbar justify-content-center">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Apple iPhone 14 Pro</h5>
+                        </div>
+                        <img class="card-img-top" src="https://reidoiphonecuiaba.com.br/wp-content/uploads/2023/03/Apple-iPhone-14-Pro-Max-128GB-Roxo-profundo2.png">
+                        <div class="card-body">
+                            <p class="container card-text">
+                                Tamanho da tela: 6,1 polegadas.<br>
+                                Resolução da tela: Full HD+.<br>
+                                Painel da tela: Super Retina XDR OLED.<br>
+                                Câmera principal: 48 mp, 12MP UltraWide, TeleObjetiva 12MP.<br>
+                                Câmera frontal: 12 MP.<br>
+                                Sistema: iOS 16.<br>
+                                Processador: Chip Bionic A16 com CPU de 6 núcleos.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary btn-toolbar justify-content-center d-flex">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
